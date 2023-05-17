@@ -1,0 +1,17 @@
+1. What is the difference between some() and every()? Explain these using your own words.
+
+ some() checks if the array elements satisfies the given condition if one element also satisfies the condition then it returns true and returns false if none of the element matches the condition
+
+ every() checks if the array elements satisfies the given condition if all elemnts satisfies the condition then it returns true if only one element fails the condition it returns false
+
+
+
+ 2.Explain the difference between the spread operator and the rest parameter in JavaScript.
+  
+   the spread operator is used to expand elements into individual element. it allows us to spread the elements of the array within another array
+   example: let a =["suhan"]
+            let b =["ahmed"]
+            let c = [...a,...b]
+   and now the output of c will be ["suhan", "ahmed"] it will be combined together
+
+the rest operator is used  in function declarations using this we can pass how much arguments as we want
