@@ -27,4 +27,10 @@ items: Elements to be added to the array starting at the start index.
 
 4. If you need to remove an object element from an array by its index, which method do you prefer to use: splice() or filter()? Explain.
 
-filter
+The filter() method creates a new array containing elements that pass a given condition, based on a provided callback function. It does not modify the original array. To remove an element by index using filter(), we can create a new array excluding the element which passes the condition
+
+5.Explain the difference between `null` and `undefined` in JavaScript.
+
+null: null is used to indicate that that variable has nothing or no value null means false
+
+undefined : undefines indicates that a variable has been declared but has not been assigned a value 
