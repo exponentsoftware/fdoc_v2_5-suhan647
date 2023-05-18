@@ -15,3 +15,16 @@
    and now the output of c will be ["suhan", "ahmed"] it will be combined together
 
 the rest operator is used  in function declarations using this we can pass how much arguments as we want
+
+3. Explain the difference between splice() and slice() in JavaScript arrays.
+
+The splice() method is used to change the contents of an array by removing or replacing existing elements or adding new elements in place.
+
+splice() takes in three parameters:
+start: The index at which to start changing the array.
+deleteCount: The number of elements to remove from the array starting at the start index. If it is set to 0, no elements are removed.
+items: Elements to be added to the array starting at the start index.
+
+4. If you need to remove an object element from an array by its index, which method do you prefer to use: splice() or filter()? Explain.
+
+filter
